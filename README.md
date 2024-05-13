@@ -3,23 +3,23 @@ Given is the variable name, variable type, the measurement unit and a brief desc
 ### Dataset 
 **Name** -- Data Type -- Measurement -- Description
 
-##Cement## (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
+**Cement** (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Blast Furnace Slag## (component 2) -- quantitative -- kg in a m3 mixture -- Input Variable
+**Blast Furnace Slag** (component 2) -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Fly Ash## (component 3) -- quantitative -- kg in a m3 mixture -- Input Variable
+**Fly Ash** (component 3) -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Water (component 4)## -- quantitative -- kg in a m3 mixture -- Input Variable
+**Water (component 4)** -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Superplasticizer## (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable
+**Superplasticizer (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Coarse Aggregate## (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable
+**Coarse Aggregate** (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Fine Aggregate## (component 7) -- quantitative -- kg in a m3 mixture -- Input Variable
+Fine Aggregate (component 7) -- quantitative -- kg in a m3 mixture -- Input Variable
 
-##Age## -- quantitative -- Day (1~365) -- Input Variable
+**Age** -- quantitative -- Day (1~365) -- Input Variable
 
-##Concrete compressive strength## -- quantitative -- MPa -- Output Variable
+**Concrete compressive strength** -- quantitative -- MPa -- Output Variable
 
 ### Outliers in the Data
 ![CementBoxplot](https://github.com/AbhayUrmaliya2004/CementStrengthPrediction/assets/141633724/d16f55b5-33c2-407d-a69f-9ece18325614)
@@ -32,5 +32,5 @@ Given is the variable name, variable type, the measurement unit and a brief desc
 ### Correlation (checking by heatmap)
 ![CementHeatmap](https://github.com/AbhayUrmaliya2004/CementStrengthPrediction/assets/141633724/e05a9dbc-fb35-4d74-abf7-4105728eff17)
 
-
-
+### Performance of Models 
+![CementScalerPerformance](https://github.com/AbhayUrmaliya2004/CementStrengthPrediction/assets/141633724/1df3a2f3-a2e1-4c84-bbb7-13e1ae40819a)
