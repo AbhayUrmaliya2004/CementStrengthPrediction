@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cement Strength Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Cement Strength Prediction </h2>
+        <form id="cementStrengthForm" action="{{ url_for('predict_datapoint')}}" method="post">
+            <label for="cement">Cement Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="cement" name="cement" required><br>
+
+            <label for="blastFurnaceSlag">Blast Furnace Slag Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="blastFurnaceSlag" name="blastFurnaceSlag" required><br>
+
+            <label for="flyAsh">Fly Ash Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="flyAsh" name="flyAsh" required><br>
+
+            <label for="water">Water Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="water" name="water" required><br>
+
+            <label for="superplasticizer">Superplasticizer Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="superplasticizer" name="superplasticizer" required><br>
+
+            <label for="coarseAggregate">Coarse Aggregate Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="coarseAggregate" name="coarseAggregate" required><br>
+
+            <label for="fineAggregate">Fine Aggregate Content (kg/m<sup>3</sup>):</label><br>
+            <input type="number" id="fineAggregate" name="fineAggregate" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <h2>
+            Cement Compresive Strength is {{result}} MPa(Mega Pascal)
+        </h2>
+    </div>
+</body>
+</html>
