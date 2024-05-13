@@ -11,7 +11,7 @@ Given is the variable name, variable type, the measurement unit and a brief desc
 
 **Water (component 4)** -- quantitative -- kg in a m3 mixture -- Input Variable
 
-**Superplasticizer (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable
+**Superplasticizer** (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable
 
 **Coarse Aggregate** (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable
 
@@ -34,3 +34,5 @@ Fine Aggregate (component 7) -- quantitative -- kg in a m3 mixture -- Input Vari
 
 ### Performance of Models 
 ![CementScalerPerformance](https://github.com/AbhayUrmaliya2004/CementStrengthPrediction/assets/141633724/1df3a2f3-a2e1-4c84-bbb7-13e1ae40819a)
+
+### Accuracy of Model :- 86.72%
