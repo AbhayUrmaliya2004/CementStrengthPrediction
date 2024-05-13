@@ -1,7 +1,7 @@
 Given is the variable name, variable type, the measurement unit and a brief description. The concrete compressive strength is the regression problem. The order of this listing corresponds to the order of numerals along the rows of the database.
 
 ### Dataset 
-##Name## -- Data Type -- Measurement -- Description
+**Name** -- Data Type -- Measurement -- Description
 
 ##Cement## (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
 
